@@ -6,7 +6,7 @@ const app = express();
 
 // ✅ Apply CORS middleware first
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://crud-contact-management-application-psi.vercel.app/',
   credentials: true,
 }));
 
