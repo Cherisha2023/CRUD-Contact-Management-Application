@@ -6,7 +6,7 @@ const app = express();
 
 // ✅ Apply CORS middleware first
 app.use(cors({
-  origin: 'https://crud-contact-management-application-orcin.vercel.app',
+  origin: 'https://crud-contact-management-application-ten.vercel.app',
   credentials: true,
 }));
 
