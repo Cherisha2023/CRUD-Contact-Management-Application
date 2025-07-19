@@ -1,4 +1,9 @@
 # CRUD-Contact-Management-Application
+
+
+---
+
+````markdown
 # 📇 Contact Management App
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen)  
@@ -37,3 +42,89 @@ A full-stack web application to **create, view, update, and delete** contact inf
 ```bash
 git clone https://github.com/your-username/contact-management-app.git
 cd contact-management-app
+````
+
+### 2️⃣ Backend Setup
+
+```bash
+cd server
+npm install
+node server.js
+```
+
+> Make sure PostgreSQL is running, and your `.env` file is configured correctly with DB credentials.
+
+### 3️⃣ Frontend Setup
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+Visit the app at: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## ⚙️ API Endpoints
+
+| Method   | Endpoint            | Description        |
+| -------- | ------------------- | ------------------ |
+| `GET`    | `/api/contacts`     | Get all contacts   |
+| `GET`    | `/api/contacts/:id` | Get single contact |
+| `POST`   | `/api/contacts`     | Create contact     |
+| `PUT`    | `/api/contacts/:id` | Update contact     |
+| `DELETE` | `/api/contacts/:id` | Delete contact     |
+
+---
+
+## ❓ Why This Stack?
+
+* **React**: Fast UI rendering and component reusability.
+* **Express + Node.js**: Lightweight and efficient backend API.
+* **PostgreSQL**: Robust relational database with great tooling.
+* **Formik + Yup**: Reliable form management and validation.
+
+---
+
+## 🚧 Challenges Faced
+
+* Resolving the `Cannot POST /api/contacts` issue caused by route/controller mismatches.
+* Fixing SQL errors like *"INSERT has more expressions than target columns"*.
+* Ensuring correct form data mapping between frontend and backend.
+* Handling 404/500 errors due to misconfigured routes or middleware.
+
+---
+
+## 📦 Folder Structure
+
+```
+root/
+├── client/        # React Frontend
+├── server/
+│   ├── routes/
+│   ├── controllers/
+│   ├── models/
+│   ├── config/
+│   └── server.js
+└── README.md
+```
+
+---
+
+## ✨ Credits
+
+Made with ❤️ by [Cherisha S](https://github.com/Cherisha2023)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+
+---
+
+
+
