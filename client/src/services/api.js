@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://crudcontact-management-application.onrender.com/api/contacts';
+const API_URL = 'https://crud-contact-management-application-2.onrender.com';
 
 // GET all contacts
 export const getContacts = async () => {
