@@ -6,9 +6,10 @@ const app = express();
 
 // ✅ Apply CORS middleware first
 app.use(cors({
-  origin: 'https://crudcontact-management-application.onrender.com',
+  origin: 'https://crud-contact-management-application-orcin.vercel.app',
   credentials: true,
 }));
+
 
 // ✅ Middleware to parse JSON
 app.use(express.json());
