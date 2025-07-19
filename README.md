@@ -14,12 +14,6 @@
 
 ---
 
-## 📸 Screenshots
-
-> _Include screenshots or a short demo GIF here._
-
----
-
 ## 🧭 How to Run the App Locally
 
 ### 1️⃣ Clone the Repository
